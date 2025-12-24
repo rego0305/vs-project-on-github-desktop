@@ -1,0 +1,7 @@
+gcc .\hello.c -o .\hello.exe
+.\hello.exe
+
+
+
+g++ .\hello1.cpp -o .\hello1.exe
+.\hello1.exe
