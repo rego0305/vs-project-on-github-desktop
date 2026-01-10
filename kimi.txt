@@ -1,0 +1,23 @@
+gcc .\hello.c -o .\hello.exe
+.\hello.exe
+
+
+
+g++ .\hello1.cpp -o .\hello1.exe
+.\hello1.exe
+
+
+//18点33分  2025年12月24日  第一次改动
+
+//17点53分 2026年1月10日 第二次改动
+
+=====================================================
+
+我在GitHub desktop 本地new 了一个repository ，远端的GitHub 会有变化吗？
+
+不会。
+GitHub Desktop 里点「Create a New Repository」→「Create Repository」只在本地新建了一个带 .git 的仓库，远端 GitHub 完全感知不到，也没有任何网络请求。
+只有当你随后手动点 Publish repository（或 push 到已有远程地址）时，Desktop 才会：
+在 GitHub 上真正创建同名空仓库
+把本地提交全部推送上去
+在此之前，远端保持原样，0 提交、0 分支变化。
